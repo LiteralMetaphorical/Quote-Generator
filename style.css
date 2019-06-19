@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(200, 220, 240);
+}
+
+.smece {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.autor {
+  text-align: right;
+  padding: 10px;
+  font-size: 150px;
+}
+
+.quotebox {
+  margin: 0 auto;
+  position: relative;
+  background-color: rgb(120, 100, 250);
+  border-radius: 5px;
+  box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.5)
+}
+
+.alltext {
+  padding: 10px;
+}
+
+#quotetext {
+  padding: 5px;
+}
+
+.but {
+  font-style: arial;
+  float: left;
+  background-color: rgb(120, 100, 250);
+  margin: 5px;
+  cursor: pointer;
+  height: 38px;
+}
+
+.but:hover {
+  background-color: rgb(100, 85, 220);
+}
+
+button {
+  box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+#newquotebut {
+  color: rgb(30, 30, 30);
+}
+
+#tweet {
+  box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.5);
+  height: 38px;
+}
+
+#slikica {
+  position: relative;
+  top: -2px;
+  height: 15px;
+}
+
+.twitter-share-button {
+  background-color: rgb(64, 153, 255);
+  float: right;
+  margin: 5px;
+  height: 38px;
+  width: 38px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 10px;
+  color: rgb(40, 40, 40);
+  text-decoration: none !important;
+}
+
+.twitter-share-button:hover {
+  background-color: rgb(45, 125, 210);
+}
